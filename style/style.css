@@ -73,6 +73,7 @@ button {
     font-size: 18px;
     background: #3882F6;
     color: white;
+    padding: 12px;
 }
 
 #section2 {
@@ -125,4 +126,24 @@ button {
 
 #section3 p {
     margin-left: auto;
+}
+
+#section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+    color: white;
+    background-color: #3882F6;
+    padding: 48px;
+}
+
+#section4-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#section4 button {
+    margin-left: auto;
+    border: 2px solid white;
 }
