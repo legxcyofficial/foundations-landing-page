@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
 
 body {
@@ -105,4 +105,24 @@ button {
 #section2 div img {
     border-radius: 12px;
     border: 4px solid #3882F6;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-color: #E5E7EB;
+}
+
+#section3 blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+#section3 p {
+    margin-left: auto;
 }
